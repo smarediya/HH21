@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <title> Music Visualizer </title>       
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&family=Bungee+Shade&family=Shrikhand&display=swap" rel="stylesheet">
+    </head>
+
+    <body>  
+
+        <div class="container-fluid" style="background-color:rgb(207,228,197); padding-bottom: 50px;">
+            <div class="row" style="background-color:rgb(207,228,197); padding-top: 100px;">
+                <div class="col-lg-3">
+                    <div class="icon">
+                        <a href="#sect3"> <img src="img/file_icon.jpg" style="width: 150px; "> </a>
+                        <h5> aud vis </h5>
+                    </div>
+                    <div class="icon">
+                        <a href="#sect4"> <img src="img/file_icon.jpg" style="width: 150px;"> </a>
+                        <h5> about us </h5>
+                    </div>                    
+                </div>  
+
+                <div class="col-lg-6">
+                    <div class="box1">
+                        <h1> Welcome </h1>
+                        <h3> ******* <strong> To </strong> ******* </h3>
+                        <h2> Music Visualizer </h2>
+                        <div class="button"> <a href="#sect3" > Get Started </a></div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3" style="padding: 0;">  
+                    <div class="icon">
+                        <a href="#sect3"> <img src="img/file_icon.jpg" style="width: 150px; z-index: 3;"> </a>
+                        <h5> aud vis </h5>
+                    </div>
+                    <div class="icon">
+                        <a href="#sect4"> <img src="img/file_icon.jpg" style="width: 150px;"> </a>
+                        <h5> about us </h5>
+                    </div>  
+                </div>
+
+            </div>
+            <h4 style="margin: auto; margin-top: 50px;"> Experience music through vision </h4>
+        </div>
+
+
+
+
+
+
+        
+        <div class="parallax" id="sect2"></div>
+
+        <div class="sect3" id="sect3"> 
+            <div>
+                <h1 style="margin-top:0;"> Aud Vis </h1>
+            </div>
+            <div class="container">
+                <canvas id="canvas1"></canvas>
+                <audio id ="audio1" controls></audio>
+                <input type='file' id="file-upload" accept='audio/*'/>
+                <canvas id="canvas2"></canvas>
+            </div>
+            <script src="js/script.js"></script>
+        </div>
+
+        <div class="parallax"></div>
+            <div class="about" id="sect4"> 
+                <h2 style="padding-top: 30px; font-size: 90px;"> About Us </h2>
+                <div class="image" style="float: left;"> <img src="img/PIC1.jpg" class="im"> </div>
+                <div>  </div>
+                <div class="image" style="float: left;"> <img src="img/PIC2.jpg" class="im"> </div>
+                <div style="margin: 55px; height: 300px;">
+                    <h4 style="color: rgb(207,228,197); text-align: justify; font-size: 40px; padding-left: 850px;"> 
+                        We are Sana (left) and Sara (right); we are aspiring software developers looking to expand our skills.
+                    </h4>
+                </div>
+                <div> 
+                    <h4 class="box2"> 
+                        This website was created as a part of HowdyHack 2021. 
+                        It visualizes music audios using the frequencies of the song 
+                        So that even those who are hearing impaired can enjoy.
+                        Although we weren't able to fully implement our idea
+                        we hope you like the aesthetic :))
+                    </h4>
+                </div>
+            </div>
+
+        
+    </body>
+
+</html>

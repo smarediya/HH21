@@ -1,0 +1,184 @@
+h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 100px;
+    color: black;
+    text-align:center;
+}
+
+h2{
+    font-family: 'Shrikhand', cursive;;
+    margin: auto;
+    font-size: 70px;
+    color: #A0C8C8;
+    text-shadow: 4px 4px black;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-emphasis: bold;
+    text-align: center;
+}
+
+h4{
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+
+/* --------------------- */
+/* ----- SECTION 1 ----- */
+.col-lg-3{
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+.box1{
+    background-color: #EEE8D9;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    border: solid 4px black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 1);
+    padding-top: 30px;
+}
+  
+.icon:hover .overlay {
+    opacity: 1;
+}
+
+
+.icon:hover{
+    opacity: 0.7;
+}
+
+.col-lg-6{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.button{
+    margin: auto;
+}
+.button a{
+    display: block;
+    background-color: #F4CE54;
+    margin: auto;
+    padding: 3px;
+    text-decoration: none;
+    width: 300px;
+    margin-top: 50px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.button a:hover{
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 1);
+}
+
+
+
+
+/* --------------------- */
+/* ----- SECTION 3 ----- */
+.sect3{
+    background-color: rgb(207, 228, 197);
+    height: 820px;
+    z-index: 5;
+}
+
+
+.parallax{
+    background-image: url("/img/back.jpg");
+    min-height: 750px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.parallax:nth-of-type(4){
+    background-image: url("/img/back.jpg");
+    min-height: 100px; 
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+.about{
+   background-color: #E49382;
+   height: 800px;
+}
+
+.image{
+    background-color: #F4CE54;
+    width: 400px; 
+    border: 4px solid black; 
+    border-radius: 10px; 
+    margin: 15px;
+    margin-top: 50px;
+    padding: 15px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.8);
+}
+
+.im{
+    width: 100%;
+    border-radius: 5px; 
+}
+
+.box2{
+    background-color: #EEE8D9;
+    width: 800px; 
+    text-align: justify; 
+    margin: auto; 
+    padding: 30px;
+    border: 4px solid black; 
+    border-radius: 10px;
+}
+
+
+
+
+
+.container {
+    left: 0;
+    background: rgb(207, 228, 197);
+    width: 100%;
+}
+
+#canvas1{
+    height: 600px;
+    width: 100%;
+    z-index: 2;
+}
+
+#canvas2{
+    position:absolute;
+    z-index: 3;
+    top: 117em;
+    left: 0;
+    height: 625px;
+} 
+input[type=file]{
+    background-color: #F4CE54;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 20px;
+  
+}
